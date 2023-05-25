@@ -70,7 +70,7 @@ const readingSchema = {
 
 async function run() {
   try {
-    const dataCollection = client.db('smartAgri').collection('readings');
+    const dataCollection = client.db('mydatabase').collection('testdb');
     // create a document to insert
     // const reading = {
     //     n: "350",
